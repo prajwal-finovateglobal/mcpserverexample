@@ -13,10 +13,10 @@ mcp-server = "mcpserver.__main__:main"
 
 [build-system]
 requires = ["setuptools"]
-build-backent = "setuptools.build_meta"
+build-backend = "setuptools.build_meta"
 
-[tools.setuptools]
-package-dir = {""="src"}
+[tool.setuptools]
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
-where = ["src "]
+where = ["src"]
