@@ -10,7 +10,7 @@ A simple MCP server with an `add` tool for adding two numbers.
 {"mcpServers":
     {
     "test": {
-        "command": "/Users/prajwalp/.local/bin/uvx",
+        "command": "uvx",
         "args": [
         "--from",
         "git+https://github.com/prajwal-finovateglobal/mcpserverexample.git",
